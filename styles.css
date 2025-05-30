@@ -1,0 +1,61 @@
+.card {
+    transition: transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.form-group label {
+    font-weight: 500;
+}
+
+.modal-content {
+    border-radius: 8px;
+}
+
+.alert {
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.table {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.table thead th {
+    border-top: none;
+    background-color: #f8f9fa;
+}
+
+.input-group .quantidade-input {
+    max-width: 100px;
+}
+
+.invalid-feedback {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.is-valid {
+    border-color: #28a745;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .table-responsive {
+        border-radius: 8px;
+    }
+} 
